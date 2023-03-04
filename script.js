@@ -1,7 +1,7 @@
 let newTask = document.querySelector('#new-task');
 let form = document.querySelector('form');
 let todoUl = document.querySelector('#items1');
-let completeUl = document.querySelector('items2');
+let completeUl = document.querySelector('#items2');
 
 
 let createTask = function(task) {
@@ -32,7 +32,7 @@ let completeTask = function() {
   let listItem = this.parentNode;
   let deleteBtn = document.createElement('button');
   deleteBtn.innerText = 'Delete';
-  deleteBtn.idName = 'delete';
+  deleteBtn.className = 'delete';
   listItem.appendChild(deleteBtn);
 
   let checkBox = listItem.querySelector('input[type="checkbox"]');
@@ -56,7 +56,7 @@ let bindInCompleteItems = function(taskItem, checkboxClick) {
 
 
 let bindCompleteItems = function(taskItem, deleteButtonClick) {
-  let deleteButton = taskItem.querySelector('#delete');
+  let deleteButton = taskItem.querySelector('.delete');
   deleteButton.onclick = deleteButtonClick;
 }
 

@@ -80,7 +80,7 @@ ul {
 }
 
 
-#delete {
+.delete {
   float: right;
   background-color: red;
   color: white;
