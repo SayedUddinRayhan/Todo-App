@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+#main-section {
+  background: #4c706e;
+  margin: 25px auto;
+  padding: 25px;
+  width: 800px;
+  font-family: verdana;
+  border: 5px solid #72a0a7;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#logo {
+  width: 100%;
+  text-align: center;
+}
+
+#logo img {
+  width: 120px;
+}
+
+h1 {
+  margin: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#form1 {
+  text-align: center;
+}
+
+#todo-list {
+  float: left;
+  width: 40%;
+  background: #d1fff0;
+  border: 3px solid #5c846c;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px;
+  margin-top: 35px;
+}
+
+#complete-list {
+  float: right;
+  width: 40%;
+  background: #d1fff0;
+  border: 3px solid #5c846c;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px;
+  margin-top: 35px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b1c9bb;
+  padding-bottom: 10px;
+  color: #57635c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.item {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+
+#delete {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 1px;
+  padding: 5px;
+}

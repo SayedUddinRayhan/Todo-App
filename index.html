@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section id="main-section">
+
+    <div id="logo">
+      <img src="https://farmradio.org/wp-content/uploads/2018/08/evaluation.png" />
+    </div>
+
+    <h1 id="header1">To-Do App</h1>
+
+    <form id="form1">
+      <label>Add New Task</label>
+      <input type="text" id="new-task" placeholder="Write your task" autofocus="" />
+      <input type="submit" id="addTask" value="Add Task" />
+    </form>
+
+    <div id="todo-list">
+      <h2>Incomplete Tasks</h2>
+      <ul id="items">
+        <li class="item">
+          <input type="checkbox" />
+          <label>Task Name</label>
+        </li>
+        <li class="item">
+          <input type="checkbox" />
+          <label>Task Name</label>
+        </li>
+        <li class="item">
+          <input type="checkbox" />
+          <label>Task Name</label>
+        </li>
+      </ul>
+    </div>
+    <!--/todo-list-->
+
+    <div id="complete-list">
+      <h2>Completed Tasks</h2>
+      <ul id="items2">
+        <li class="item">
+          <label>Task Name</label>
+          <button id="delete">Delete</button>
+        </li>
+      </ul>
+    </div>
+    <!--/complete-list-->
+  </section>
+
+
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
